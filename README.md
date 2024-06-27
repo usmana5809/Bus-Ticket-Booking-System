@@ -36,11 +36,13 @@ Compile the C++ files using your preferred compiler (e.g., g++)
 # 1.Administrator Mode:
  - Log in with appropriate credentials.
  - Use the menu to manage buses (add, view, etc.).
+   
 # 2.Passenger Mode:
 - Book a ticket by selecting available buses.
 - View booked tickets and fare details.
 
 # Example Outputs
+```bash
 Adding a Bus
 Enter bus no: 1234
 Enter Driver's name: John Doe
@@ -49,31 +51,32 @@ Departure: 05:00 PM
 From: CityA
 To: CityB
 Seats initialized.
-
-
-
+```
 
 # Booking a Ticket
+```bash
 Select the Bus No: 1234
 
 ----------------------------------------------------------------
 Bus No || Source || Destination || Bus Name || Distance(KM) || Arr. time(Hrs) || Dept. time(Hrs) || Duration
 ----------------------------------------------------------------
 1234   CityA   CityB       ABC Bus         100         09:00 AM         05:00 PM         8 hrs
-
+```
 
 # Displaying Booked Ticket
+```bash
 Booked Bus is ....
 
 ----------------------------------------------------------------
 Bus No || Source || Destination || Bus Name || Distance(KM) || Arr. time(Hrs) || Dept. time(Hrs) || Duration
 ----------------------------------------------------------------
 1234   CityA   CityB       ABC Bus         100         09:00 AM         05:00 PM         8 hrs
-
+```
 
 
 
 # Fare Calculation
+```bash
 Child fare: 500
 Adult fare: 1000
 Temporary fare: 1500
@@ -83,15 +86,15 @@ Rs 1/Km for child
 Rs 2/Km for adult: y
 
 Total fare: 1600
-
+```
 
 
 # Viewing Available Buses
+```bash
 Bus no: 1234
 Driver: John Doe        Arrival time: 09:00 AM    Departure time: 05:00 PM
 From: CityA             To: CityB
-
-
+```
 
 ## Expected Output
 - Users will interact with the system via a command-line interface.
